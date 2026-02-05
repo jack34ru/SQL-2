@@ -12,7 +12,7 @@
 Скриншот 1 к заданию 1  
 ![Screen 1](https://github.com/jack34ru/SQL-2/blob/main/screenshots/Screenshot_163.png)
 
-Листинг  кода:  
+Листинг  кода к заданию 1:
 ```sql
 SELECT
   CONCAT(s.first_name, ' ', s.last_name) AS staff_name,
@@ -36,7 +36,7 @@ HAVING COUNT(cu.customer_id) > 300;
 Скриншот 1 к заданию 2  
 ![Screen 1](https://github.com/jack34ru/SQL-2/blob/main/screenshots/Screenshot_164.png)
 
-Листинг  кода:  
+Листинг  кода к заданию 2:
 ```sql
 SELECT COUNT(*) AS film_count
 FROM film
@@ -52,7 +52,7 @@ WHERE length > (SELECT AVG(length) FROM film);
 Скриншот 1 к заданию 3  
 ![Screen 1](https://github.com/jack34ru/SQL-2/blob/main/screenshots/Screenshot_165.png)
 
-Листинг  кода:  
+Листинг  кода к заданию 3:
 ```sql
 SELECT
   DATE_FORMAT(p.payment_date, '%Y-%m') AS month,
